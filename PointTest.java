@@ -19,7 +19,7 @@ class PointTest
 		D1.setValuex(x1);
 		D1.setValuey(y1);
 		D2.setValuex(x2);
-		D2.setValuey(y1);
+		D2.setValuey(y2);
 		float dist = D1.calDis(D2);
 		System.out.println("The distance between the two points is: "+String.format("%7.2f",dist));
 	}
