@@ -14,12 +14,12 @@ class PointTest
 		System.out.println("Enter the value of y2: ");
 		float y2 = scan.nextFloat();
 		
-		Point p1 = new Point();
-		Point p2 = new Point();
-		p1.setValuex(x1);
-		p1.setValuey(y1);
-		p2.setValuex(x2);
-		p2.setValuey(y1);
+		Point D1 = new Point();
+		Point D2 = new Point();
+		D1.setValuex(x1);
+		D1.setValuey(y1);
+		D2.setValuex(x2);
+		D2.setValuey(y1);
 		float dist = D1.calDis(D2);
 		System.out.println("The distance between the two points is: "+String.format("%7.2f",dist));
 	}
